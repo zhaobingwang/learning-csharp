@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.EPPlusGist.ConsoleApp", "Office\Learning.EPPlusGist.ConsoleApp\Learning.EPPlusGist.ConsoleApp.csproj", "{F7013F99-2A83-47B3-8261-C02F91ECF3D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.ExcelDataReaderGist.ConsoleApp", "Office\Learning.ExcelDataReaderGist.ConsoleApp\Learning.ExcelDataReaderGist.ConsoleApp.csproj", "{06A36812-1639-4E50-8243-9ABD46516BCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7013F99-2A83-47B3-8261-C02F91ECF3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7013F99-2A83-47B3-8261-C02F91ECF3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7013F99-2A83-47B3-8261-C02F91ECF3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7013F99-2A83-47B3-8261-C02F91ECF3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A36812-1639-4E50-8243-9ABD46516BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A36812-1639-4E50-8243-9ABD46516BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A36812-1639-4E50-8243-9ABD46516BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A36812-1639-4E50-8243-9ABD46516BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D25BC64F-C36B-466B-95EC-8ED7180617D8}
+	EndGlobalSection
+EndGlobal
