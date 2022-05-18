@@ -1,3 +1,7 @@
+using Learning.RESTful.WebApi.Data;
+using Learning.RESTful.WebApi.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +10,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// TODO: AddSingleton, AddScoped, AddTransientµÄÒìÍ¬
+builder.Services.AddTransient<ITouristRouteRepository, TouristRouteRepository>();
+builder.Services.AddDbContext<AppDbContext>(options => { 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MSSQL")); 
+});
+
 
 var app = builder.Build();
 
